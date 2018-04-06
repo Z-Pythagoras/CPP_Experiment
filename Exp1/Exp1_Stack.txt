@@ -1,0 +1,7 @@
+1.1 
+结构体struct Stack包含结构体struct Link和成员函数
+结构体struct Link包括空指针void *data，Link型指针Link* next，初始化函数void initialize(void* dat, Link* nxt)
+成员函数包括：初始化函数void initialize()，进栈函数void push(void *dat)，函数访问栈顶元素void* peek()，函数取出栈顶指针，并删除栈顶旧元素void* pop()，判断栈是否为空void cleanup()
+
+1.2
+Stash将数据本身存储在storage[]数组中，Stack指向数据的指针存储在单链表中
